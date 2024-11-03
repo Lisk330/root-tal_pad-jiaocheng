@@ -31,20 +31,20 @@
 >
 > **砖了FLASH-BOOM不负责**
 
-使用mtkclient用USB数据线连接电脑（不是数据线不行）
-连接完成后打开flash工具
-点击解锁bootloader，正常情况下完成后会显示none
-退出软件，拔线，开机
-开机如果显示几行小字（大概意思为分区损坏，bootloader已解锁不可信）
-请再按一下开机键
-如果没有显示小字
-请使用群资源酷安某贼mtkclient命令行
-完成后会显示`device is aready unlock`
-使用mtkclient提取boot_a和boot_b两个分区
-在一台正常的手机上用magisk修补bin文件
-传到电脑上，用mtkclient写入boot（ab都要写）
-重启平板，如果不能重启
-就把原来的boot刷回来
+   使用mtkclient用USB数据线连接电脑（不是数据线不行）
+   连接完成后打开flash工具
+   点击解锁bootloader，正常情况下完成后会显示none
+   退出软件，拔线，开机
+   开机如果显示几行小字（大概意思为分区损坏，bootloader已解锁不可信）
+   请再按一下开机键
+   如果没有显示小字
+   请使用群资源酷安某贼mtkclient命令行
+   完成后会显示`device is aready unlock`
+   使用mtkclient提取boot_a和boot_b两个分区
+   在一台正常的手机上用magisk修补bin文件
+   传到电脑上，用mtkclient写入boot（ab都要写）
+   重启平板，如果不能重启
+   就把原来的boot刷回来
 
 ## 结尾
 
